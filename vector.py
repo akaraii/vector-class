@@ -53,7 +53,7 @@ class Vector:
         """ Returns the plane-polar angle in degrees unless degrees=False """
         a = math.atan2(self.y, self.x)
         if degrees:
-            return math.degrees(a)
+            return math.degrees(a) +" Degrees a"
         else:
             return a
 
